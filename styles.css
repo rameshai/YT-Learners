@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+  
+  }
+  .header a {
+    text-decoration: none;
+  
+    margin: 0 15px;
+  }
+  .hero {
+    height: 100vh;
+    background: url('bg-3.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  .hero .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+   
+    border: 2px solid white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+  }
+    .hero button:hover {
+        background: white;
+    }
